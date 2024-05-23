@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --color-primario: #c22627;
+    --color-secundario: #A9A7A5;
+    --color-terciario: #000;
+    --color-logo: #7b7c7e
+    --tamanio-fuente: 16px;
+}
+
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px; /* Ajusta el espacio desde la parte inferior de la página */
+    right: 20px; /* Ajusta el espacio desde el borde derecho de la página */
+    background-color: #25d366; /* Color de fondo del botón */
+    color: #fff; /* Color del ícono de WhatsApp */
+    width: 60px; /* Ancho del botón */
+    height: 60px; /* Altura del botón */
+    border-radius: 50%; /* Hace que el botón sea circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px; /* Tamaño del ícono */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  }
+
+  .whatsapp-link{
+    text-decoration: none;
+  }
+  
+  .whatsapp-link:hover {
+    background-color: #128c7e; /* Cambia el color de fondo cuando se pasa el cursor */
+  }
+  
+
+/*navbar*/
+.navbar{
+    background-color: #fff;
+}
+.navbar-nav a{
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--color-logo);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-brand{
+    height: 50px;
+    width: 50px;
+}
+.navbar-brand img {
+    max-height: 100%;
+}
+.section-padding{
+    padding: 65px;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background-color: #f6f0f0;
+}
+/* .section-header{
+    margin-bottom: 40px;
+} */
+.carousel{
+    height: 100vh;
+    width: 100%;
+    background-image: url('C:/Users/Usuario/Desktop/Corpal SA/IMG/background_home.png');
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    left: 8%;
+    width: 50%;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    margin-top: 25px;
+    color: var(--color-secundario);
+    font-weight: 900;
+    text-align: start;
+}
+.carousel-caption h5 span{
+    color: var(--color-primario);
+}
+.carousel-caption p{
+    font-size: 25px;
+    line-height: 1.8;
+    color: #fff;
+    text-align: start;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--color-primario);
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: start;
+}
+
+/* nosotros */
+.about-area{
+    margin-top: 70px;
+}
+.img-area{
+    padding: 70px 10px;
+    width: 600px;
+    min-width: 300px;
+}
+.img-area img{
+    width: 100%;
+}
+.about-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-secundario);
+}
+.about-text h2 span{
+    color: var(--color-primario);
+}
+.about-text .btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--color-primario);
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* Servicios */
+.services .container{
+   width: 100%;
+}
+.services .container .row{
+    margin-bottom: 40px;
+}
+.section-header h2{
+    font-size: 45px;
+    color: var(--color-secundario);
+    font-weight: 700;
+    text-align: center;
+}
+.section-header h2 span{
+    color: var(--color-primario);
+}
+/* AGREGAR MARGIN BOTTOM EN MOBILE*/
+.single-services{
+    background-color: var(--color-primario);
+    color: #f0eedf;
+    padding: 30px 15px;
+    text-align: center;
+    height: 200px;
+}
+.single-services i{
+    padding: 20px 0;
+    font-size: 40px;
+}
+.single-services h5{
+    font-size: 20px;
+    color: #f0eedf;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    font-family: "Antonio", sans-serif;
+    font-weight: 500;
+}
+
+/* por que elegirnos */
+.choose{
+    margin-bottom: 70px;
+}
+.choose-img img{
+    width: 100%;
+}
+.single-box{
+    padding: 20px;
+}
+.single-box i{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: var(--color-logo);
+}
+.single-box h2{
+    color: var(--color-logo);
+
+    font-size: 20px;    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    font-family: "Antonio", sans-serif;
+    font-weight: 700;
+}
+/* Nos eligen */
+.slider-container {
+    height: 250px;
+}
+.shadow-lg {
+    box-shadow: none !important;
+}
+
+.slider-nav{
+    filter: none;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--color-primario);
+    height: 20vh;
+    padding: 35px 0;
+    color: #f0eedf;
+    width: 100%;
+}
+.redes i{
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding{
+        padding: 15px;
+    }
+    .about-text{
+        margin: 20px 0;
+    }
+    .single-services{
+        margin-bottom: 30px;
+    }
+}

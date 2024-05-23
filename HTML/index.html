@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Font awesome iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="C:\Users\Usuario\Desktop\Corpal SA\CSS\style.css">
+    <title> Corpal | Coorporacion Argentina de Limpieza SA </title>
+</head>
+<body>
+    <a href="https://api.whatsapp.com/send?phone=NUMERO_DE_TELEFONO" class="whatsapp-link" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\Usuario\Desktop\Corpal SA\HTML\index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\Usuario\Desktop\Corpal SA\HTML\nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#redes">Nuestras redes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div> <!-- Cierre de la etiqueta div para navbar-collapse -->
+        </div> <!-- Cierre de la etiqueta div para container -->
+    </nav> 
+
+      <!-- Carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption">
+                <h5 class="animated faceInDown" style="animation-delay: 1s;"> Limpieza integral <span>Corpal</span></h5>
+                <p class="animated faceInUp" style="animation-delay: 2s;"> En Corpal brindamos soluciones integrales de limpieza a pequeñas y grandes empresas.</p>
+                <p class="animated faceInUp" style="animation-delay: 3s;"> <a href="C:\Users\Usuario\Desktop\Corpal SA\HTML\nosotros.html"> Conocenos </a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption">
+                <h5 class="animated faceInDown" style="animation-delay: 1s;"> Seguridad <span>laboral</span></h5>
+                <p class="animated faceInUp" style="animation-delay: 2s;"> Gestionamos el personal garantizando seguridad jurídica y asistencia de los operarios.</p>
+                <p class="animated faceInUp" style="animation-delay: 3s;"> <a href="C:\Users\Usuario\Desktop\Corpal SA\HTML\nosotros.html"> Conocenos </a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption">
+                <h5 class="animated faceInDown" style="animation-delay: 1s;"> Atencion <span>personalizada</span></h5>
+                <p class="animated faceInUp" style="animation-delay: 2s;"> Adaptamos nuestros servicios a la necesidad de cada cliente. </p>
+                <p class="animated faceInUp" style="animation-delay: 3s;"> <a href="C:\Users\Usuario\Desktop\Corpal SA\HTML\nosotros.html"> Conocenos </a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Servicios -->
+      <div class="services section-padding" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-header text-center">
+                <h2>Nuestros <span>servicios</span></h2>
+              </div>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-services text-center">
+                  <i class="fa-solid fa-briefcase"></i>
+                    <h5> Servicio mensual para oficinas </h5>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-services text-center">
+                  <i class="fa-solid fa-helmet-safety"></i> 
+                  <h5> Finales de obra </h5>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-services text-center">
+                  <i class="fa-solid fa-stairs"></i>
+                    <h5> Vidrios en altura </h5>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-services text-center">
+                  <i class="fa-solid fa-rug"></i>
+                    <h5> Lavado de alfombras </h5>
+                  </i>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-services text-center">
+                  <i class="fa-solid fa-broom"></i>
+                    <h5> Tratamiento y mantenimiento de pisos especiales </h5>
+                  </i>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-services text-center">
+                  <i class="fa-solid fa-tree"></i>
+                    <h5> Mantenimiento de espacios verdes </h5>
+                  </i>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-services text-center">
+                  <i class="fa-solid fa-spray-can"></i>
+                    <h5> Desinfecciones </h5>
+                  </i>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-services text-center">
+                  <i class="fa-solid fa-hand-sparkles"></i>
+                    <h5> Insumos de limpieza </h5>
+                  </i>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div> 
+        
+        <!--por que elegirnos -->
+        <div class="choose section-paddind" id="choose">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-header text-center">
+                  <h2>¿Por que <span>elegirnos?</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="choose-area text-center">
+                  <div class="row">
+                    <div class="col-lg-6 col-med-6 col-cm-12">
+                      <div class="single-box">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                        <h2>Servicio personalizado</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                      </div>
+
+                      <div class="single-box">
+                        <i class="fa-solid fa-person-circle-check"></i>
+                        <h2>Personal capacitado</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-med-6 col-cm-12">
+                      <div class="single-box">
+                        <i class="fa-solid fa-star"></i>
+                        <h2>Larga trayectoria</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                      </div>
+                
+                      <div class="single-box">
+                        <i class="fa-solid fa-percent"></i>
+                        <h2>100% garantizando</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-5 col-sm-12">
+                <div class="choose-img">
+                  <img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\why.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>       
+
+        <!-- nuestros clientes -->
+        <div class="container-clientes">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header text-center">
+                            <h2>Nuestros <span>clientes </span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="container py-3 py-lg-5">
+                  <div class="swiffy-slider slider-item-show4 slider-nav-outside slider-nav-sm slider-nav-light  slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-32x9 slider-item-ratio-contain bg-white shadow-lg py-2 py-lg-3" data-slider-nav-autoplay-interval="2000">
+                        <div class="slider-container">
+                            <div class="slide-img"><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen1.jpg" loading="lazy" alt=""></div>
+                        
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen7.jpg" loading="lazy" alt=""></div>
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen8.jpg" loading="lazy" alt=""></div>
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen9.jpg" loading="lazy" alt=""></div>
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen10.jpg" loading="lazy" alt=""></div>
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen11.jpg" loading="lazy" alt=""></div>
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen12.png" loading="lazy" alt=""></div>
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen13.png" loading="lazy" alt=""></div>
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen14.png" loading="lazy" alt=""></div>
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen15.jpg" loading="lazy" alt=""></div>
+                            <div><img src="C:\Users\Usuario\Desktop\Corpal SA\IMG\imagen16.png" loading="lazy" alt=""></div>
+                        </div>
+                        <button type="button" class="slider-nav slider-nav-prev" aria-label="Go to previous"></button>
+                        <button type="button" class="slider-nav slider-nav-next" aria-label="Go to next"></button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!--footer -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="footer-content text-center">
+                  <p>Todos los derechos reservados</p>
+                  <p class="redes">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      
+</body>
+</html>
